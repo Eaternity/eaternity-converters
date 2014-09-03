@@ -1,8 +1,8 @@
 package ch.eaternity.converters.xls2json;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.JsonRootName;
@@ -28,49 +28,34 @@ public class NutritionDataConverter {
 
 	private NutritionData nutritionData;
 
-	private List<NutrientConverter> nutrients;
-
 	public NutritionDataConverter() {}
 
 	public NutritionDataConverter(NutritionData nutritionData) {
 		this.nutritionData = nutritionData;
 	}
 
-
-	/**
-	 * @throws InvalidNutrientException when a wrong input was set in the converter
-	 * @throws IllegalArgumentException when no nutrients are delivered
-	 */
-	@JsonIgnore
-	public NutritionData getNutritionData() {
-		return this.nutritionData;
-	}
-
-	//JSON fields
-	public void setName(String name) {
-		this.nutritionData.setName(name);
+	public String getName() {
+		return this.nutritionData.getName();
 	}
 	
-	public void setCountry(String country) {
-		this.nutritionData.setCountry(country);
+	public String getCountry() {
+		return this.nutritionData.getCountry();
 	}
 	
-	/*
-	@JsonProperty("id")
 	public String getId() {
-		return nutritionData.getId();
-	}*/
-	
-	public void setId(String id) {
-		this.nutritionData.setId(id);
+		return this.nutritionData.getId();
 	}
 	
-	public void setComment(String comment) {
-		this.nutritionData.setComment(comment);
+	public String getComment() {
+		return this.nutritionData.getComment();
 	}
 	
 	@JsonProperty("nutr-vals")
-	public void setNutrient(List<NutrientConverter> nutrients) {
-		this.nutrients = nutrients;
+	public List<NutrientConverter> getNutrients() {
+		List<NutrientConverter> nutrientConverters = new ArrayList<NutrientConverter>();
+		for (Nutrient nutrient : nutritionData.getNutrients()) {
+			nutrientConverters.add(new NutrientConverter(nutrient));
+		}
+		return nutrientConverters;
 	}
 }

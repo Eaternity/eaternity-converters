@@ -2,7 +2,11 @@ package ch.eaternity.converters.xls2json;
 
 
 
-
+/**
+ * MAKE SURE THE JSON FOLDER IS EMPTY - PROBABLY THE FILES DONT GET OVEWRITTEN!
+ * @author aurelian_jaggi
+ *
+ */
 public class Main {
 	
 	private static final String INPUT_FOLDER = "excel/";

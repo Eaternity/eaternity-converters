@@ -2,8 +2,10 @@ package ch.eaternity.converters.xls2json;
 
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -14,15 +16,15 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import jxl.Sheet;
-import jxl.Workbook;
-import jxl.read.biff.BiffException;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ExcelConverter {
 	
-	private DateFormat dateFormat = DateFormat.getDateInstance();
+	private DateFormat dateFormat = DateFormat.getDateTimeInstance();
 	private final String LOG_FILE_NAME = dateFormat.format(new Date()) + "-converted-results.log";
 
 	private final static int COLUMN_NUMBER_ID = 2;
@@ -61,22 +63,45 @@ public class ExcelConverter {
 		for (int i = 0; i < listOfFiles.length; i++) {
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().endsWith(".xls")) {
 				try {
-			        //Create a workbook object from the file at specified location.
-			        //Change the path of the file as per the location on your computer.
-			        Workbook wrk1 =  Workbook.getWorkbook(listOfFiles[i]);
-			         
-			        //Obtain the reference to the first sheet in the workbook
-			        Sheet sheet1 = wrk1.getSheet(0);
-			        
-			        nutritionDataList.addAll(extractNutritionDataFromSheet(sheet1, logger));
-			        wrk1.close();
-			    } catch (BiffException | IOException er) {
+					
+					FileInputStream fileInputStream = new FileInputStream(listOfFiles[i]);
+					HSSFWorkbook workbook = new HSSFWorkbook(fileInputStream);
+					HSSFSheet worksheet = workbook.getSheetAt(0);
+					
+			        nutritionDataList.addAll(extractNutritionDataFromSheet(worksheet, logger));
+			    } catch (IOException er) {
 			        logger.append("ERROR opening Excel File with name: " + listOfFiles[i].getName() + System.lineSeparator() +
 			        		"Cause: " + er.getMessage() + System.lineSeparator());
 			    }
 			}
 		}
 		return nutritionDataList;
+	}
+
+	public List<NutritionData> extractNutritionDataFromSheet(HSSFSheet worksheet, StringBuilder logger) {
+		Map<String, NutritionData> nutritionDataMap = new HashMap<String, NutritionData>();
+		
+		for (int rowCounter = ROW_NUMBER_CONTENT_START; rowCounter < worksheet.getLastRowNum(); rowCounter ++) {
+			HSSFRow row = worksheet.getRow(rowCounter);
+			String nutritionDataId = "" + (int)row.getCell(COLUMN_NUMBER_ID).getNumericCellValue();
+			NutritionData nutritionData = nutritionDataMap.get(nutritionDataId);
+			if (nutritionData == null) {
+				nutritionData = new NutritionData();
+				nutritionData.setId(nutritionDataId);
+				nutritionData.setName(row.getCell(COLUMN_NUMBER_NAME).getStringCellValue());
+				nutritionData.setCountry(row.getCell(COLUMN_NUMBER_COUNTRY).getStringCellValue());
+				nutritionData.setComment("");
+			}
+			
+			String componentId = row.getCell(COLUMN_NUMBER_NUTR_COMPONENT_ID).getStringCellValue();
+			Double value = row.getCell(COLUMN_NUMBER_NUTR_VALUE).getNumericCellValue();
+			String unit = row.getCell(COLUMN_NUMBER_NUTR_UNIT).getStringCellValue(); 
+			nutritionData.addNutrient(new Nutrient(componentId, value, unit));
+
+			nutritionDataMap.put(nutritionDataId, nutritionData);
+		}
+		 
+		return new ArrayList<NutritionData>(nutritionDataMap.values());
 	}
 
 	public void writeJsonFiles(List<NutritionData> nutritionDataList, String outputFolder, StringBuilder logger) {
@@ -93,49 +118,20 @@ public class ExcelConverter {
 			File file = new File(filename);
 			 
 			try {
-				// TODO check weather this works when file already exists
-				// if file doesnt exists, then create it
+				// TODO check weather this works when file already exists - probably not!
 				if (!file.exists()) {
 					file.createNewFile();
 				}
-				mapper.writeValue(file, new NutritionDataConverter(nutritionData));
+				
+				if (file.canWrite())
+					mapper.writeValue(file, new NutritionDataConverter(nutritionData));
+				else 
+					logger.append("Error: cannot write file: " + filename + System.lineSeparator());
 			} 
 			catch (IOException e) {
 				logger.append("Error converting/writing JSON File with name: " + filename + System.lineSeparator());
 			}
 		}
-	}
-
-	public List<NutritionData> extractNutritionDataFromSheet(Sheet sheet1, StringBuilder logger) {
-		Map<String, NutritionData> nutritionDataMap = new HashMap<String, NutritionData>();
-		
-		for (int row = ROW_NUMBER_CONTENT_START; row < sheet1.getRows(); row ++) {
-			String nutritionDataId = sheet1.getCell(COLUMN_NUMBER_ID, row).getContents();
-			NutritionData nutritionData = nutritionDataMap.get(nutritionDataId);
-			if (nutritionData == null) {
-				nutritionData = new NutritionData();
-				nutritionData.setId(nutritionDataId);
-				nutritionData.setName(sheet1.getCell(COLUMN_NUMBER_NAME, row).getContents());
-				nutritionData.setCountry(sheet1.getCell(COLUMN_NUMBER_COUNTRY, row).getContents());
-				nutritionData.setComment("");
-			}
-			
-			String componentId = sheet1.getCell(COLUMN_NUMBER_NUTR_COMPONENT_ID, row).getContents();
-			String valueString = sheet1.getCell(COLUMN_NUMBER_NUTR_VALUE, row).getContents();
-			try {
-				Double value = Double.valueOf(valueString);
-				String unit = sheet1.getCell(COLUMN_NUMBER_NUTR_UNIT, row).getContents(); 
-				nutritionData.addNutrient(new Nutrient(componentId, value, unit));
-			}
-			catch (NumberFormatException nfe) {
-				logger.append("Nutrient Value " + valueString + " of Nutrient with Component Id  " + componentId + 
-						" and NutritionInfo with EurFIR Id " + nutritionDataId + " not able to convert to Double value." 
-						+ System.lineSeparator());
-			}
-			nutritionDataMap.put(nutritionDataId, nutritionData);
-		}
-		 
-		return new ArrayList<NutritionData>(nutritionDataMap.values());
 	}
 	
 	private void writeFile(String filename, String content) {
