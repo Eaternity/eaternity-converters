@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -69,6 +68,7 @@ public class ExcelConverter {
 					HSSFSheet worksheet = workbook.getSheetAt(0);
 					
 			        nutritionDataList.addAll(extractNutritionDataFromSheet(worksheet, logger));
+			        logger.append("Processed file: " + listOfFiles[i].getName() + System.lineSeparator());
 			    } catch (IOException er) {
 			        logger.append("ERROR opening Excel File with name: " + listOfFiles[i].getName() + System.lineSeparator() +
 			        		"Cause: " + er.getMessage() + System.lineSeparator());
@@ -113,7 +113,7 @@ public class ExcelConverter {
             directory.mkdir();
 		
 		for (NutritionData nutritionData : nutritionDataList) {
-			String filename = outputFolder + nutritionData.getId() + "-" + nutritionData.getName() + "-nutr.json";
+			String filename = outputFolder + replaceInvalidFilenameChars(nutritionData.getId() + "-" + nutritionData.getName()) + "-nutr.json";
 			
 			File file = new File(filename);
 			 
@@ -155,5 +155,27 @@ public class ExcelConverter {
 		}
 	}	
 	
+	/**
+	 * Replaces all sorts of problematic input file names such as German Umlaute, accentuated characters etc.
+	 * @param fileName the file name containing problematic characters
+	 * @return the file name in a canonic form
+	 */
+	private String replaceInvalidFilenameChars(String fileName) {
+		// German Umlaute ae, oe, ue and French accented chars etc. For an overview,
+		// see here: http://www.utf8-chartable.de/.
+		fileName = fileName.replaceAll("[\u00C0\u00C1\u00C2\u00C3\u00C4\u00C5\u00C6\u00E0\u00E1\u00E2\u00E3\u00E4\u00E5\u00E6]", "a");
+		fileName = fileName.replaceAll("[\u00D2\u00D3\u00D4\u00D5\u00D6\u00D8\u00F2\u00F3\u00F4\u00F5\u00F6\u00F8]", "o");
+		fileName = fileName.replaceAll("[\u00D9\u00DA\u00DB\u00DC\u00F9\u00FA\u00FB\u00FC]", "u");
+		fileName = fileName.replaceAll("[\u00C8\u00C9\u00CA\u00CB\u00E8\u00E9\u00EA\u00EB]", "e");
+		fileName = fileName.replaceAll("[\u00CC\u00CD\u00CE\u00CF\u00EC\u00ED\u00EE\u00EF]", "i");
+		fileName = fileName.replaceAll("[\u00DF]", "ss");
+		fileName = fileName.replaceAll("[\u00C7\u00E7]", "c");
+		fileName = fileName.replaceAll("[\u00D1\u00F1]", "n");
+		
+		// Remove all non-word characters (everything other than [a-zA-Z0-9_] or whitespaces
+		fileName = fileName.replaceAll("[\\W|\\s]", "_");
+		
+		return fileName;
+	}
 	
 }
