@@ -26,7 +26,7 @@ public class ExcelConverter {
 	private DateFormat dateFormat = DateFormat.getDateTimeInstance();
 	private final String LOG_FILE_NAME = dateFormat.format(new Date()) + "-converted-results.log";
 
-	private final static int COLUMN_NUMBER_ID = 2;
+	private final static int COLUMN_NUMBER_ID = 3;
 	private final static int COLUMN_NUMBER_NAME = 5;
 	private final static int COLUMN_NUMBER_COUNTRY = 1;
 	private final static int COLUMN_NUMBER_NUTR_COMPONENT_ID = 8;
@@ -83,7 +83,13 @@ public class ExcelConverter {
 		
 		for (int rowCounter = ROW_NUMBER_CONTENT_START; rowCounter < worksheet.getLastRowNum(); rowCounter ++) {
 			HSSFRow row = worksheet.getRow(rowCounter);
-			String nutritionDataId = "" + (int)row.getCell(COLUMN_NUMBER_ID).getNumericCellValue();
+			String nutritionDataId;
+			//TODO This is a hack... The ids can be numbers or strings. 
+			try {
+				nutritionDataId = "" + (int) row.getCell(COLUMN_NUMBER_ID).getNumericCellValue();
+			} catch (IllegalStateException e) {
+				nutritionDataId = "" + (String) row.getCell(COLUMN_NUMBER_ID).getStringCellValue();
+			}
 			NutritionData nutritionData = nutritionDataMap.get(nutritionDataId);
 			if (nutritionData == null) {
 				nutritionData = new NutritionData();
