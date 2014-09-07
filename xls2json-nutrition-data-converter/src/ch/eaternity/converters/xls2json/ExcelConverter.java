@@ -26,14 +26,14 @@ public class ExcelConverter {
 	private DateFormat dateFormat = DateFormat.getDateTimeInstance();
 	private final String LOG_FILE_NAME = dateFormat.format(new Date()) + "-converted-results.log";
 
-	private final static int COLUMN_NUMBER_ID = 3;
-	private final static int COLUMN_NUMBER_NAME = 5;
+	private final static int COLUMN_NUMBER_ID = 4;
+	private final static int COLUMN_NUMBER_NAME = 0;
 	private final static int COLUMN_NUMBER_COUNTRY = 1;
 	private final static int COLUMN_NUMBER_NUTR_COMPONENT_ID = 8;
-	private final static int COLUMN_NUMBER_NUTR_VALUE = 10;
+	private final static int COLUMN_NUMBER_NUTR_VALUE = 3;
 	private final static int COLUMN_NUMBER_NUTR_UNIT = 11;
 	
-	private final static int ROW_NUMBER_CONTENT_START = 4;
+	private final static int ROW_NUMBER_CONTENT_START = 1		;
 	
 	private static final Logger log = Logger.getLogger(ExcelConverter.class.getName());
 
@@ -95,14 +95,14 @@ public class ExcelConverter {
 				nutritionData = new NutritionData();
 				nutritionData.setId(nutritionDataId);
 				nutritionData.setName(row.getCell(COLUMN_NUMBER_NAME).getStringCellValue());
-				nutritionData.setCountry(row.getCell(COLUMN_NUMBER_COUNTRY).getStringCellValue());
+				nutritionData.setCountry("");
 				nutritionData.setComment("");
 			}
 			
-			String componentId = row.getCell(COLUMN_NUMBER_NUTR_COMPONENT_ID).getStringCellValue();
+//			String componentId = row.getCell(COLUMN_NUMBER_NUTR_COMPONENT_ID).getStringCellValue();
 			Double value = row.getCell(COLUMN_NUMBER_NUTR_VALUE).getNumericCellValue();
-			String unit = row.getCell(COLUMN_NUMBER_NUTR_UNIT).getStringCellValue(); 
-			nutritionData.addNutrient(new Nutrient(componentId, value, unit));
+//			String unit = row.getCell(COLUMN_NUMBER_NUTR_UNIT).getStringCellValue(); 
+			nutritionData.addNutrient(new Nutrient("ENERC", value, "kJ"));
 
 			nutritionDataMap.put(nutritionDataId, nutritionData);
 		}
