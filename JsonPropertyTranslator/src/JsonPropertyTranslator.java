@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.Writer;
 
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -55,6 +56,7 @@ public class JsonPropertyTranslator {
 			for (TranslationParam translationParam : translationParams) {
 		
 				BufferedWriter bw = null;
+				Writer writer = null;
 				try {
 					if (json.has(translationParam.key)) {
 						translatePropertyValue(inFile.getName(), json, translationParam.key, translationParam.oldPropertyValue, translationParam.newPropertyValue);
@@ -63,13 +65,17 @@ public class JsonPropertyTranslator {
 					String path = outDir.getAbsolutePath();
 					File outFile = new File(path + "/" + inFile.getName());
 					bw = new BufferedWriter(new FileWriter(outFile));
-					json.write(bw);
+					writer = json.write(bw);
 				}
 				catch (IOException e) {
-					
+					e.printStackTrace(System.err);
 				}
 				finally {
-					bw.close();
+					//bw.close();
+					
+					if (writer != null) {
+						writer.close();
+					}
 				}
 			}
 	}
@@ -91,7 +97,7 @@ public class JsonPropertyTranslator {
 				new TranslationParam("production-names", "bio", "organic"),
 				new TranslationParam("production-names", "gewächshaus", "greenhouse"),
 				new TranslationParam("production-names", "gh", "greenhouse"),
-				new TranslationParam("production-names", "konventionell", "greenhouse"),
+				new TranslationParam("production-names", "konventionell", "standard"),
 				new TranslationParam("production-names", "aquakultur", "farm"),
 				new TranslationParam("production-names", "fang", "wild-caught"),
 				new TranslationParam("production-names", "frisch", "fresh"),
