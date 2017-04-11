@@ -3,6 +3,7 @@ package ch.eaternity.converters.xls2json;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -15,6 +16,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -43,20 +45,30 @@ public class ExcelConverter {
 		
 		logger.append("Start converting all Excel Files in Folder + " + inputFolder + " to JSON output Folder " + outputFolder + System.lineSeparator());
 
-		nutritionDataList.addAll(extractAllNutritionData(inputFolder, logger));
-		writeJsonFiles(nutritionDataList, outputFolder, logger);
-		
-		logger.append("Finished converting Excel files. " + System.lineSeparator() + "Consult Console or Logfile " + 
-				LOG_FILE_NAME + " for processing errors." + System.lineSeparator());
-		log.log(Level.SEVERE, logger.toString());
-		
+		try {
+			nutritionDataList.addAll(extractAllNutritionData(inputFolder, logger));
+			writeJsonFiles(nutritionDataList, outputFolder, logger);
+
+			logger.append("Finished converting Excel files. " + System.lineSeparator() + "Consult Console or Logfile " +
+					LOG_FILE_NAME + " for processing errors." + System.lineSeparator());
+			log.log(Level.SEVERE, logger.toString());
+		} catch (FileNotFoundException fnfe) {
+			fnfe.printStackTrace();
+		}
 		writeFile(LOG_FILE_NAME, logger.toString());
 	}
 
 
-	public List<NutritionData> extractAllNutritionData(String inputFolder, StringBuilder logger) {
+	public List<NutritionData> extractAllNutritionData(String inputFolder, StringBuilder logger)
+			throws java.io.FileNotFoundException {
 		List<NutritionData> nutritionDataList = new ArrayList<NutritionData>();
 		File folder = new File(inputFolder);
+		if (!folder.exists() || !folder.isDirectory()) {
+			StringBuilder errorMsg = new StringBuilder("Error: input folder not found or not directory: ")
+					.append(folder.getAbsolutePath());
+			logger.append(errorMsg.toString() + System.lineSeparator());
+			throw new FileNotFoundException(errorMsg.toString());
+		}
 		File[] listOfFiles = folder.listFiles();
 		
 		for (int i = 0; i < listOfFiles.length; i++) {
@@ -78,7 +90,8 @@ public class ExcelConverter {
 		return nutritionDataList;
 	}
 
-	public List<NutritionData> extractNutritionDataFromSheet(HSSFSheet worksheet, StringBuilder logger) {
+	public List<NutritionData> extractNutritionDataFromSheet(HSSFSheet worksheet, StringBuilder logger)
+			throws IllegalStateException {
 		Map<String, NutritionData> nutritionDataMap = new HashMap<String, NutritionData>();
 		
 		for (int rowCounter = ROW_NUMBER_CONTENT_START; rowCounter < worksheet.getLastRowNum(); rowCounter ++) {
@@ -100,8 +113,19 @@ public class ExcelConverter {
 			}
 			
 			String componentId = row.getCell(COLUMN_NUMBER_NUTR_COMPONENT_ID).getStringCellValue();
-			Double value = row.getCell(COLUMN_NUMBER_NUTR_VALUE).getNumericCellValue();
-			String unit = row.getCell(COLUMN_NUMBER_NUTR_UNIT).getStringCellValue(); 
+			Double value = 0d;
+			if (row.getCell(COLUMN_NUMBER_NUTR_VALUE).getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
+				value = row.getCell(COLUMN_NUMBER_NUTR_VALUE).getNumericCellValue();
+			} else {
+				try {
+					value = Double.parseDouble(row.getCell(COLUMN_NUMBER_NUTR_VALUE).getStringCellValue());
+				} catch (NumberFormatException e) {
+					StringBuilder errorMessage = new StringBuilder("Error: value should be a number, not: ")
+							.append(row.getCell(COLUMN_NUMBER_NUTR_VALUE).getStringCellValue());
+					logger.append(errorMessage.toString() + System.lineSeparator());
+				}
+			}
+			String unit = row.getCell(COLUMN_NUMBER_NUTR_UNIT).getStringCellValue();
 			nutritionData.addNutrient(new Nutrient(componentId, value, unit));
 
 			nutritionDataMap.put(nutritionDataId, nutritionData);

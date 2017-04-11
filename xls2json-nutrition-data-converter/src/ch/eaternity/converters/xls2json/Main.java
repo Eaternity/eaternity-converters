@@ -14,9 +14,13 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-	
-		ExcelConverter excelConverter = new ExcelConverter();
-		excelConverter.convertAllFilesInFolder(INPUT_FOLDER , OUTPUT_FOLDER);
+
+		try {
+			ExcelConverter excelConverter = new ExcelConverter();
+			excelConverter.convertAllFilesInFolder(INPUT_FOLDER, OUTPUT_FOLDER);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 	}
 	
