@@ -1,5 +1,11 @@
 package ch.eaternity.converters.xls2json;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,14 +21,8 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.apache.poi.hssf.usermodel.HSSFRow;
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 public class ExcelConverter {
-	
+
 	private DateFormat dateFormat = DateFormat.getDateTimeInstance();
 	private final String LOG_FILE_NAME = dateFormat.format(new Date()) + "-converted-results.log";
 
@@ -32,24 +32,24 @@ public class ExcelConverter {
 	private final static int COLUMN_NUMBER_NUTR_COMPONENT_ID = 8;
 	private final static int COLUMN_NUMBER_NUTR_VALUE = 10;
 	private final static int COLUMN_NUMBER_NUTR_UNIT = 11;
-	
+
 	private final static int ROW_NUMBER_CONTENT_START = 4;
-	
+
 	private static final Logger log = Logger.getLogger(ExcelConverter.class.getName());
 
 	public void convertAllFilesInFolder(String inputFolder, String outputFolder) {
 		List<NutritionData> nutritionDataList = new ArrayList<NutritionData>();
 		StringBuilder logger = new StringBuilder();
-		
+
 		logger.append("Start converting all Excel Files in Folder + " + inputFolder + " to JSON output Folder " + outputFolder + System.lineSeparator());
 
 		nutritionDataList.addAll(extractAllNutritionData(inputFolder, logger));
 		writeJsonFiles(nutritionDataList, outputFolder, logger);
-		
-		logger.append("Finished converting Excel files. " + System.lineSeparator() + "Consult Console or Logfile " + 
+
+		logger.append("Finished converting Excel files. " + System.lineSeparator() + "Consult Console or Logfile " +
 				LOG_FILE_NAME + " for processing errors." + System.lineSeparator());
 		log.log(Level.SEVERE, logger.toString());
-		
+
 		writeFile(LOG_FILE_NAME, logger.toString());
 	}
 
@@ -58,15 +58,15 @@ public class ExcelConverter {
 		List<NutritionData> nutritionDataList = new ArrayList<NutritionData>();
 		File folder = new File(inputFolder);
 		File[] listOfFiles = folder.listFiles();
-		
+
 		for (int i = 0; i < listOfFiles.length; i++) {
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().endsWith(".xls")) {
 				try {
-					
+
 					FileInputStream fileInputStream = new FileInputStream(listOfFiles[i]);
 					HSSFWorkbook workbook = new HSSFWorkbook(fileInputStream);
 					HSSFSheet worksheet = workbook.getSheetAt(0);
-					
+
 			        nutritionDataList.addAll(extractNutritionDataFromSheet(worksheet, logger));
 			        logger.append("Processed file: " + listOfFiles[i].getName() + System.lineSeparator());
 			    } catch (IOException er) {
@@ -80,11 +80,11 @@ public class ExcelConverter {
 
 	public List<NutritionData> extractNutritionDataFromSheet(HSSFSheet worksheet, StringBuilder logger) {
 		Map<String, NutritionData> nutritionDataMap = new HashMap<String, NutritionData>();
-		
+
 		for (int rowCounter = ROW_NUMBER_CONTENT_START; rowCounter < worksheet.getLastRowNum(); rowCounter ++) {
 			HSSFRow row = worksheet.getRow(rowCounter);
 			String nutritionDataId;
-			//TODO This is a hack... The ids can be numbers or strings. 
+			//TODO This is a hack... The ids can be numbers or strings.
 			try {
 				nutritionDataId = "" + (int) row.getCell(COLUMN_NUMBER_ID).getNumericCellValue();
 			} catch (IllegalStateException e) {
@@ -98,69 +98,70 @@ public class ExcelConverter {
 				nutritionData.setCountry(row.getCell(COLUMN_NUMBER_COUNTRY).getStringCellValue());
 				nutritionData.setComment("");
 			}
-			
+
 			String componentId = row.getCell(COLUMN_NUMBER_NUTR_COMPONENT_ID).getStringCellValue();
 			Double value = row.getCell(COLUMN_NUMBER_NUTR_VALUE).getNumericCellValue();
-			String unit = row.getCell(COLUMN_NUMBER_NUTR_UNIT).getStringCellValue(); 
+			String unit = row.getCell(COLUMN_NUMBER_NUTR_UNIT).getStringCellValue();
 			nutritionData.addNutrient(new Nutrient(componentId, value, unit));
 
 			nutritionDataMap.put(nutritionDataId, nutritionData);
 		}
-		 
+
 		return new ArrayList<NutritionData>(nutritionDataMap.values());
 	}
 
 	public void writeJsonFiles(List<NutritionData> nutritionDataList, String outputFolder, StringBuilder logger) {
-		ObjectMapper mapper = new ObjectMapper();
-		
+		ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);;
+
+
 		File directory = new File(outputFolder);
 
-        if (!directory.exists()) 
+        if (!directory.exists())
             directory.mkdir();
-		
+
 		for (NutritionData nutritionData : nutritionDataList) {
 			String filename = outputFolder + replaceInvalidFilenameChars(nutritionData.getId() + "-" + nutritionData.getName()) + "-nutr.json";
-			
+
 			File file = new File(filename);
-			 
+
 			try {
 				// TODO check weather this works when file already exists - probably not!
 				if (!file.exists()) {
 					file.createNewFile();
 				}
-				
+
 				if (file.canWrite())
 					mapper.writeValue(file, new NutritionDataConverter(nutritionData));
-				else 
+				else
 					logger.append("Error: cannot write file: " + filename + System.lineSeparator());
-			} 
+			}
 			catch (IOException e) {
 				logger.append("Error converting/writing JSON File with name: " + filename + System.lineSeparator());
 			}
 		}
 	}
-	
+
 	private void writeFile(String filename, String content) {
 		try {
 			File file = new File(filename);
- 
+
 			// if file doesnt exists, then create it
 			if (!file.exists()) {
 				file.createNewFile();
 			}
- 
+
 			OutputStreamWriter fw = new OutputStreamWriter(new FileOutputStream(file.getAbsoluteFile()), "UTF-8");
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(content);
 			bw.close();
- 
+
 			System.out.println("File successfully Written: " + filename);
- 
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}	
-	
+	}
+
 	/**
 	 * Replaces all sorts of problematic input file names such as German Umlaute, accentuated characters etc.
 	 * @param fileName the file name containing problematic characters
@@ -177,11 +178,11 @@ public class ExcelConverter {
 		fileName = fileName.replaceAll("[\u00DF]", "ss");
 		fileName = fileName.replaceAll("[\u00C7\u00E7]", "c");
 		fileName = fileName.replaceAll("[\u00D1\u00F1]", "n");
-		
+
 		// Remove all non-word characters (everything other than [a-zA-Z0-9_] or whitespaces
 		fileName = fileName.replaceAll("[\\W|\\s]", "_");
-		
+
 		return fileName;
 	}
-	
+
 }
