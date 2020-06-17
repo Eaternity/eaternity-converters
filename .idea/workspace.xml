@@ -2,1068 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d309b8d-5f67-4027-8e6b-cab1137b680f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/bin/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/bin/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/CDL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/Cookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/CookieList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/HTTP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/HTTPTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONStringer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/JSONWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/Kim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/Property.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/XML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/XMLTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/BitInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/BitOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/BitReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/BitWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/Huff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/JSONzip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/Keep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/None.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/PostMortem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/Unzipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/lib/json-java/zip/Zipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/-1-test-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000809_Tomato__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000810_Eggplant__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000811_Cauliflower__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000812_Broccoli__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000813_Fennel__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000815_Cucumber__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000816_Carrot__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000819_Garlic__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000820_Celeriac__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000821_Leek__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000823_Bell_pepper__red__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000824_Rettich-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000826_Brussels_sprouts__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000827_Red_cabbage__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000828_Spinach__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000829_Celery__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000830_Zucchini__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000831_Onion__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000833_Lentil__dried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000833_Linsen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000835_Lamb_s_lettuce__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000836_Parsley__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000837_Chives__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000838_Mushroom__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000839_Chanterelle__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000840_Pineapple__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000841_Apple__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000842_Apricot__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000843_Avocado__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000844_Banana__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000845_Pear__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000847_Datteln__getrocknet_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000849_Fig__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000851_Grapefruit__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000858_Kiwi_fruit__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000859_Mango__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000860_Mandarin__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000862_Lemon__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000865_Peach__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000868_Nectarine__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000869_Orange__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000882_Egg_yolk__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000883_Egg_white__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000894_Millet__grain_peeled-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000896_Hartweizengries-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000898_Corn_semolina-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000898_Maisgriess-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000899_Maize_starch-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000900_Rice__polished__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000902_Pearl_barley-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000902_Rollgerste-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000906_Mais-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000906_Sweet_corn__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000917_Chinese_cabbage__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000918_Sugar_pea__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000919_Kichererbsen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000922_Bean__white__dried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000923_Romaine_lettuce__cos_lettuce_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000924_Soybean__dried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000925_Asparagus__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000926_Chicory__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000927_Butterhead_lettuce__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000927_Mesclun-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000928_Kohlrabi__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000929_Swiss_chard__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000930_Beetroot__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000932_White_cabbage__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000935_Savoy_cabbage__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000936_Edible_boletus__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000937_Radish__red__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000939_Radicchio_red__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000940_Iceberg_lettuce__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000941_Thyme__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000943_Sage__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000944_Rosemary__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000945_Peppermint__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000946_Basil__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000948_Sugar_loaf_chicory__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000949_Soybean_sprouts-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000950_Endive__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000951_Rocket__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000955_Sugar__white-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000955_Zucker__Zuckerruben_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000957_Honey__from_flowers-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000957_Honig-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000959_Plum__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000961_Quince__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000962_Raisins__dried__grape___sultanas-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000963_Grape__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000964_Damson__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000965_Winter_squash__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000968_Parmesan_cheese-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000969_Gorgonzola-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000971_Soft_cheese__Mascarpone-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000977_Tofu-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000978_Essiggurken-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000979_Olive__green-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1000984_Potato_starch-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001011_Wine__red__12___vol-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001018_Vermouth__15__vol-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001021_Port__18_5___vol-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001035_Mineral_water__San_Pellegrino-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001042_Goat_milk-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001043_Buttermilk-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001053_Vacherin_Fribourgeois-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001059_Feta__cow_milk-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001069_Feta__ewe__goat_milk-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001072_Sparkling_wine__champagne-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001076_Emmentaler_cheese__at_least_45__fat__dry_matter_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001076_Kase__hart_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001077_Tilsiter__pasteurized_milk__at_least_45___fat__dry_matter_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001080_Processed_cheese__45__fidm__slice-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001085_Tomato_juice-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001089_Cream_cheese__min__60__fidm-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001093_Apple_juice-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001103_Sour_cream__creme_fraiche__35__fat-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001105_Orange_juice-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001109_Skimmed_milk_powder-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001114_Cocoa_powder-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001114_Kakao-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001120_Whole_milk_powder-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001126_Distelol-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001128_Olive_oil-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001133_Soft_drink__with_flavor__sweetened-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001135_Peanut_oil-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001137_Sunflower_oil-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001139_Rape_oil-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001139_Rapsol__roh_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001141_Sweet_whey-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001142_Soybean_oil-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001144_Lemon_juice-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001178_Erbsen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001182_Soft_cheese__60__fidm-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001185_Table_salt-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001186_Ketchup-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001187_Tomato_paste-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001190_Beef__shoulder__roast___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001191_Beef__filet__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001192_Beef__round__schnitzel__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001194_Milk_chocolate_filled_with_nuts__chocolate_bar_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001196_Spirits__Kirsch__Cherry_Schnaps-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001199_Sauerkraut__pickled-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001215_Kalb__Schulterbraten_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001217_Kalb__Steaks_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001217_Veal__filet__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001218_Kalb__Haxen_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001223_Bouillon__vegetable__prepared-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001226_Tomato_sauce-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001237_Lamb__sheep___filet__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001252_Goat__average___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001261_Ham__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001272_Jam-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001287_Bacon_Farmer_style__raw__smoked-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001290_Bacon__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001294_Palm_oil__palm_fat-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001296_Dried_meat__Hobel___Bundner___Walliser___Tessiner__dried_mea-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001299_Chicken__whole__with_skin__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001329_Weizen__Korner_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001329_Wheat__soft__whole_grain-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001381_Rye_flour__wholemeal__Type_1800-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001387_Paniermehl-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001399_Fish__tuna__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001400_Claressefilet__Hybrid_Kiemensackwels_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001405_Molluscs__blue_mussel__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001406_Table_salt__iodized-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001409_Hefe-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001411_Eurasian_perch__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001412_Shrimp__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001414_Norway_lobster__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001418_Oat_bran__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001421_Mayonnaise-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001427_Fruit_salad__unsweetened__canned-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001433_Salami-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001437_Mettwurst__pork_and_beef_sausage___spreadable-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001444_Pork_sausage__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001448_Bratwurst_du_vaud__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001451_Veal_bratwurst__uncooked-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001460_Cream__at_least_45___milk_fat__pasteurized-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001461_Pasta__with_egg__dry-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001469_Tea__prepared-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001470_Ice_Tea__sweetened-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001479_Potato_chips__nature-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001482_Kartoffeln-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001482_Potato__peeled__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001485_Beer__lager-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001492_White_bread-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001494_Bread_for_toasting__wholemeal-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001498_Brot_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001499_Roggenschrot__Roggen_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001501_Lye_roll-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001505_Croissant-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001520_French_fries-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001569_Wheat_starch-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001578_Blatterteig-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001578_Puff_pastry_with_vegetable_fat-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001579_Cake_dough_with_vegetable_fat-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001580_Pizza_dough__with_vegetable_fat-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001591_Crispbread__wholemeal-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001605_Tortilla_chips__corn_based-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001611_Millet__wholemeal_flakes-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001613_Cornflakes-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001620_Pretzel_sticks__dry_lye_pretzel_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001635_Ice_cream__dairy__vanilla-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1001678_Passion_fruit__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/100284_1_Herbs__leaves_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1013_Bread_crumbs-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1023_Rice_bran-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/103_Coffee_bean__roasted__ground-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/106_Duck_whole_raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11005_Curry_powder-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11007_Gelatin__dry-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11030_Selleriesalz-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11040_Capers__pickled-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11071_Exotic_fruit_average__mango__papaya__without_skin-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11080_Herbs__fresh__average_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11092_Whey_powder-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/110_Cheese__Mozarella-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/110_Cheese__mozzarella___52__water__22_5__M_F__-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1110_Fructose-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11188_Vanillin_sugar-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/111_Grahammehl-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/111_Wheat_flour_whole_grain-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11228_Jew_s_ear___pepeao___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1176_Ostrich_fillet-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11961_Hearts_of_palm__canned-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11972_Lemon_grass__citronella___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/11_632_Tortillas__made_with_wheat_flour-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/12020_Brie_cheese-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/12114_Gruyere_cheese-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1232_Pepper_red_hot_paste-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/12520_Blue_cheese-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/12726_Cheddar_cheese-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/12729_Edam_cheese-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/12_Randensprossen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13026_Melon__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13047_Beef__grass_fed__ground__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13997_Berries__fresh__average_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13_118_Tempeh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13_317_Peppers__capsicum__chilli__red__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13_388_Tomatoes__cherry__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13_455_Quorn__pieces__as_purchased-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/13_841_Oregano__fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1458_Seitan-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1475_Coriander__leaf__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/14_059_Carambola-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/14_820_Coconut_milk-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/14_Vinegar__distilled__white_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/15026_Pecan_nut-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/15240_Fish__trout__rainbow__farmed__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1593_Lime__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/161_Himbeeren-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/162410_CHEESE__PARMESAN-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/166820_CHEESE__RICOTTA__COW_MILK-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/169_Spices__allspice__ground-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/16_002_Bass__Sea__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/17144_Game_meat__antelope__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/17177_Game_meat__rabbit__domesticated__composite_of_cuts__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/172_Spices__bay_leaf-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1741_Apple_compote-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/17_043_Sesame_oil-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/17_047_Walnut_oil-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/17_297_Currypaste__rot_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/17_375_Tomatoes__sun_dried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1891_Horse_radish_raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1897_Glucose-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/19056_Snacks__tortilla_chips__plain__white_corn-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1907_Onion__spring-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/19115_Candies__MARS_SNACKFOOD_US__MARS_Almond_Bar-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/1_Cheese__Mozarella-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/20012_Bulghur-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2001_Gewurze-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/20022_Watercress__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/20038_Dandelion_leaves__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/20052_Artichoke__globe__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/20127_Purslane__leaf__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2034_Mandarin_orange_juice__pasteurized-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2038_Bok_choy__pak_choi__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2050_Vanilla_extract-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/205_Spices__saffron-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2069_Vinegar__balsamic-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2100_Jerusalem_artichoke__sunchoke___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2208_Soybeans__green__edamame___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2282_Vegetarian_schnitzel_Valess_unprepared-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2286_Laugenbretzel-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2529_Samen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/25414_Cheeseburger__fast_foods_restaurant-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2549_Fruhlingsrollen___vegetarisch_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/25510_Gnocchi__potato-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/256_Sour_cherry-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2577_Nusse-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/2577_Nuts__mixed_nuts__dry_roasted_with_peanuts-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/3258_Cheese_processed__Emmental__slices-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/326_Federkohl-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/330_Lettuce-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/331_Green_beans-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/335_1_Peppers__chili__red-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/339_Venison_raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/3652_Schwarztee_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/36602_Pigeon__meat_only__roasted-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/369_Spring_roll_fried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/3728_Soy_flakes-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/377_Queller-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/384_Marmalade__all_types-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/386_Bouillon__beef__concentrated__cube-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/4006_2_Marsala_wine-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/4037_Oil__rice_bran-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/4120001SK00000003000_Guinea_fowl-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/441_Cranberry-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/4609_Animal_fat__bacon_grease-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/4612_Gilt_headed_bream-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/5010_GARDEN_CRESS-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/5536_Soya__alternative_to_yoghurt__Provamel_Dairy_Free__Yofu__wit-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/657_Sesame_seeds__whole__dried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/6625_Energy_drink__Red_Bull-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/664_Cassava__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/664_Maniok-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/673_Mustard_leaves_raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/700168_1_Nettles-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/704_Shrimp_paste_trassie-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/7220_QUINCE-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/7730_STRAWBERRY-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/7_1_1_046_Sorrel-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/805_Zander__pike_perch-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/811047_Veal__breast__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/811051_Kalb__Kotelett_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/811052_Veal__filet__steak__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/811079_Beef__minced__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/811079_Hackfleisch-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/811083_Pork__minced__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812048_Veal__minced__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812049_Wiederkauer-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812050_Kalb__Geschnetzeltes_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812053_Kalb__Platzli_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812054_Kalb__Ragout_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812071_Beef__entrecote__steak__raw__Switzerland_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812074_Beef__prime_rib__raw__Switzerland_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812077_Beef__boiling_meat__with_fat__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812078_Beef__boiling_meat__lean__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812080_Beef__chopped__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812081_Beef__ragout__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/812084_Pork__chopped__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/813_Caviar-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/814_Crab__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/819_Cellophane_noodles-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821008_Mineral_water__Valser_classic-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821010_Drinking_water__average_Switzerland_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821024_Butter__clarified-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821025_Cooking_butter-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821031_Yogurt__vanilla-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821037_Milk_partially_skimmed__UHT-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821038_Whole_milk__pasteurized-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821039_Whole_milk__UHT-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821041_Cream__35___fat__pasteurized-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821043_Cream__pasteurized__25__fat-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821045_Coffee_cream-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821046_Curds_min__40__fat__dry_matter_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821047_Curds_with_at_most_10__fat__dry_matter_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/821053_Soya_milk-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822013_Cola_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822049_Caotina_Surfin__powder__Wander___prepared_with_milk-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822055_Wasser-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822064_Mixed_fruit_juice__Anna_s_Best__Migros_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822067_Suppengemuse-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822067_Vegetable_Mix_Asia__Migros___frozen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822089_Mischsalat-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822089_Mixed_Salad__Anna_s_Best__Migros_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822092_Spaghetti__M_Budget__Migros___dry-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822095_Pasta__noodles__Tipo_M__Migros___dry-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822138_Yogurt__Migros_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822144_Himbeeressig-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822144_Vinegar__M_Budget__Migros_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822147_Rice__Risotto__S__Andrea__Migros___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/822149_Rice__Basmati__Migros___raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/824_Mustard-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/828_Cloves-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831009_Milk_chocolate-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831010_Chocolate__dark-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831011_Chocolate__white-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831012_Haferflocken-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831070_Dinkelmehl-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831072_Weissmehl__Weizenmehl_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831072_Wheat_flour__white__type_400-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831073_Multikornmehl-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831073_Wheat_flour__wholemeal__type_1700-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831074_Halbweissmehl-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831076_Margarine-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/831_Chervil_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/832002_Salmon__wild__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/832004_Felchen__lokal_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/832004_Whitefish__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/8322_Foie_gras__duck__whole__canned-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/832_Ginger_root_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841001_Haselnusse-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841002_Walnut-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841004_Chestnut__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841005_Almond-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841008_Cashew_nut-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841010_Pumpking_seeds-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841014_Sesam_seeds__peeled-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841015_Grunkern-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/841015_Sunflower_seeds-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/842003_Peanut-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/842006_Pine_nut-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/842009_Coconut-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/842009_Kokos-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/851001_Cod__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/851002_Rivella_blue-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/851006_Egg__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/862012_Catfish_fillet__Bio_Naturaplan__Coop___deep_frozen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/862020_Kernel_mix__Coop_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/862022_Teig__Pizza_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/862029_Shrimps_Jumbo__Naturaplan__Coop_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/862_Tortellini_w__meat_filling-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/866_Lobster-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/894_Truffle__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/9159_Limes__raw-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/923_Herbal_tea-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/937_Green_tea-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/9681_Couscous-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/C10A001_Quinoa-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/C130001_Oats-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/C440001_Maize_flour-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/C450001_Rice_flour-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/CA_1061_Spring_greens__raw__vervain-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/E111111_Chicken_egg_whole_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/F321000_Currant_red-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G002211_Brown_algae_deep_frozen-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G105114_Garden_lettuce_fresh_whole-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G344111_Pe_tsai_cabbage_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G413902_Artichoke_heart_tinned_drained-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G485111_Shallot_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G611021_Swede__Swedish_turnip__rutabaga__cooked-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G640111_Parsnip_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G670111_Parsnip_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/G770411_Chickpeas_dried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/J721000_Soy_sauce-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/M12A011_Curdled_milk_3_6__fat__A_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/N32_000590_Pilze-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/N32_000908_Bread__raisin_bread-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/N32_004501_Baking_powder-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/N32_005632_Nuts__pistachio-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/R149311_Tabasco_sauce-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/R218011_Cinnamon-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/R258011_Pepper-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/R271011_Nutmeg-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/R466011_Pectin-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/S112000_Sugar_brown_cane-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/S32_002655_Fond__white__5_g_paste_-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/S32_002702_Shortcrust_pastry-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/S32_005217_Chick_pea__dried-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/S32_005269_Grain__spelt-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/S32_005284_Stock_paste__rice-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/T103802_White_herring_preserve-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/T107802_Mackerel_preserve-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/T403111_Brook_trout_fresh-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/nutrs/T603802_Pikeperch_preserve-nutr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/-1-test-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/10-distelol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/100-zitronensaft-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1000-gemuse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1002-gewurze-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1003-nusse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1004-fleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/101-tomaten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/102-federkohl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/103-kartoffeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/104-knollensellerie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/105-schwarzwurzel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/106-apfel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/107-zwiebeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/108-knoblauch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/109-spinat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/11-baumnussol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/110-maniok-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1101-wein-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1102-wasser-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1103-bier-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1104-fruchtsaft-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1105-orangensaft-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1106-apfelsaft-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1107-mineralwasser-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1108-buttermilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/111-mais-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/112-kichererbsen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/113-kurbis-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/114-orangen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/115-karotten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/116-wirz-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/117-rosenkohl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/118-lauch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/119-bananen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/12-palmol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/120-stangensellerie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1200-algen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1201-ananas-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1202-apfelpektin-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1203-artischockenherzen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1204-brot-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1205-brotchen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1206-brunnenkresse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1207-cheddar-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1208-kartoffelchips-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1209-maischips-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/121-mangold-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1210-cornflakes-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1213-eichblattsalat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1214-eigelb-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1215-eiweiss-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1216-erdbeeren-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1218-garnelen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1219-himbeeren-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/122-zucchini-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1220-joghurt-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1221-johannisbeeren-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1224-kase-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1225-kase-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1226-kase-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1228-kiwi-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1229-kompott-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/123-aubergine-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1231-lachs-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1233-laugenbretzel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1234-mango-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1236-mizuna-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1238-muskat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1239-nektarine-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/124-peperoni-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1240-pak_choi-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1241-passionsfrucht-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1242-pekannusse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1243-perlhuhn-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1244-pfirsich-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1246-red_bull-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1249-selleriesalz-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/125-broccoli-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1250-senfblatter-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1251-sprossen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1252-steinpilze-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1253-tabasco-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1255-teig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1256-thaibasilikum-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1257-thunfisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1258-tomatensaft-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/126-pastinaken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1260-trevisosalat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1261-vacherin-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1262-violette_ritterlinge-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1263-waldbeeren-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1265-wolfsbarsch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1266-ziegenkase-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1267-zitronengrass-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1268-kabeljau-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1269-languste-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/127-blumenkohl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1270-hummer-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1271-feigen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1272-queller-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1273-kaffeebohnen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1274-grapefruit-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1275-randensprossen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1276-joghurt-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1277-joghurt-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/128-linsen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1283-steckruben-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1284-verveine-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1285-fischeier-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1286-randensamen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1287-mangold-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1288-kapuzinerkresse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1289-mesclun-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/129-kefen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1290-moosbeere-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1292-goldbrasse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1293-saibling-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1294-weizenkorner-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1295-foie_gras-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1296-taube-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1297-einsiedlerkrebs-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1298-pfifferlinge-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1299-truffel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/130-oliven-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1301-rosinenbrotchen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1306-kakao-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1307-champagner-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1308-vermouth-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1309-portwein-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/131-erbsen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1310-pitaya-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1311-sternfrucht-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1313-gipfel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1315-glucose-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1316-trimoline-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/132-soja-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1321-cola-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1322-schnaps-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/133-bohnen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1332-gemusebruhe-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1334-tomaten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1335-tomatensugo-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1339-kompott-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/134-bleichspargel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1341-gipfel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1343-rinderbruhe-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/135-birnen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/136-avocado-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/137-peperoncini-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/138-rucola-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/139-kopfsalat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/140-artischocken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/141-batavia-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/142-chicoree-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/143-cherrytomaten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/144-chinakohl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/145-cicorino-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/146-eisbergsalat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/147-endivie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/148-fenchel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/149-fruhkartoffeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/150-gurken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1502-krautertee-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1503-mandarinen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1504-pflaumen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1505-limonade-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1506-limonade-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/151-kohlrabi-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1521-grana_padano-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1522-pangasius-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/153-lattich-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1532-muscheln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/154-lollo-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1541-tilsiter-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1546-nudeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1547-claressefilet-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/155-lowenzahn-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1554-zanderfilet-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1555-roter_soldatenfisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1557-fruhlingsrollen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1558-zander-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1559-lorbeer-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/156-nusslisalat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1560-nelken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1561-zitronenthymian-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1563-marsala-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1564-vollei-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1565-bergkrauter-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1567-silserbrot-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1568-eglifilet-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1569-spitzkohl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/157-portulak-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1570-palmherzen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1571-senfkorner-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1572-sternanis-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1576-eistee-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/158-radieschen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1580-schwarztee-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1581-gruntee-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1582-mineralwasser-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1583-kaffeerahm-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/159-randen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1591-rosmarin-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1593-salami-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1597-datteln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1598-fruhlingszwiebeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1599-mandarinensaft-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/160-rettich-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1600-mangopulpe-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1601-quitten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1602-vanilleschoten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1608-sauerkirschen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/161-romanesco-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1618-edamame-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1619-mu_err_pilze-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/162-rotkohl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1623-hering-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1624-makrele-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1627-kalbsbrust-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1628-kalbsfilet-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1629-kalbsgeschnetzeltes-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/163-ruben-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1630-kalbshalbsbraten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1631-kalbshaxen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1632-kalbskoteletts-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1633-kalbsplaetzli-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1634-kalbsragout-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1635-kalbsschulterbraten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1636-kalbssteaks-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1637-kalbswurstfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1638-rindsgeschnetzeltes-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1639-rindshackfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/164-schalotte-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1640-rindshohruecken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1641-rinderfilet-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1642-rinderhuft-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1643-rinderplaetzli-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1644-rinderragout-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1645-rinderroastbeef-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1646-rinderschulterbraten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1647-rindersiedfleisch-durchgezogen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1648-rindersiedfleisch-mager-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1649-rinderstotzenbraten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/165-topinambur-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1650-rind-wurstfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1651-butter-geklaert-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1652-eier-freilandhaltung-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1653-kaese-halbhart-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1654-quark-vollfett-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1655-rahm-doppel-45prozent-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1656-speiseeis-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1657-magermilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1658-tierischesfett-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1659-hafer-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/166-weisskohl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1660-hirse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1661-maiskleie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1662-reiskleie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1663-maismehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1664-roggenmehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1665-sauermilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1666-uhtmilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1667-uhtmilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1668-ziegenmilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1669-magermilchpulver-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/167-zuckerhut-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1670-molke-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1671-molkenpulver-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1672-reisoel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1673-tapiokastaerke-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1674-weizenstaerke-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1675-valess-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/1676-rohrzucker-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/168-grunspargel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/169-pariserkarotten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/170-rispentomaten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/171-melone-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/172-petersilienwurzel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/173-meerrettich-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/174-limette-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/175-trauben-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/176-rosinen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/177-aprikosen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/178-zitronen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/179-zwetschgen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/2-rapsol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/200-petersilie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/201-salbei-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/202-salz-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/203-curry-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/204-pfeffer-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/205-koriander-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/206-galgant-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/207-schnittlauch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/208-zucker-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/209-basilikum-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/210-ingwer-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/211-dillkraut-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/212-thymian-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/213-barlauch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/214-bohnenkraut-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/216-brennnesseln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/217-dillsamen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/218-eisenkraut-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/219-estragon-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/220-ganseblumchen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/221-holunderbluten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/222-kapuzinerblute-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/223-kerbel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/224-liebstockel-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/225-majoran-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/226-minze-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/227-oregano-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/228-pelargonie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/229-ringelblume-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/230-sauerampfer-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/231-veilchen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/232-ysop-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/233-zitronenmelisse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/234-waldmeister-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/235-chilli-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/236-zimt-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/237-safran-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/3-olivenol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/300-kokosnussmilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/303-soja_sauce-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/304-honig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/305-essig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/306-sambal_oelek-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/307-kokos-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/308-kapern-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/309-kartoffelstarke-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/310-maisstarke-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/311-sojamilch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/312-currypaste-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/313-senf-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/315-hefe-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/316-ketchup-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/317-aceto_balsamico-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/318-reisessig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/319-backpulver-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/320-gelatine-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/321-himbeeressig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/4-sonnenblumenol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/400-goldhirse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/401-quinoa-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/402-spaghetti-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/403-weissmehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/404-hartweizengries-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/406-brot-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/409-maisgriess-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/410-reis-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/411-nudeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/414-gnocchi-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/415-couscous-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/416-bulghur-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/418-risottoreis-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/419-toast-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/420-grahammehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/421-halbweissmehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/422-roggenschrot-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/423-multikornmehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/424-blatterteig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/425-rollgerste-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/426-grunkern-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/427-paniermehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/428-haferflocken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/429-glasnudeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/430-hirseflocken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/431-brotchen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/432-dinkelmehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/434-reismehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/435-kuchenteig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/437-vollkornmehl-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/5-margarine-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/500-quorn-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/501-tofu-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/502-tempeh-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/503-seitan-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/505-sojaflocken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/512-pommes-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/515-gemusebruhe-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/516-essiggurken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/517-sojasprossen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/518-strudelteig-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/519-sauerkraut-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/600-schokolade-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/601-schokolade-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/602-schokolade-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/7-sojaol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/700-cashewnusse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/701-waldpilze-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/703-erdnusse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/704-baumnusse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/705-champignons-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/706-pistazien-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/707-pinienkerne-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/708-kurbiskerne-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/709-mandeln-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/710-kerne-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/711-sonnenblumenkerne-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/712-sesam-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/713-haselnusse-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/714-marroni-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/8-sesamol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/800-kase-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/801-eier-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/802-fisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/803-schweinefleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/804-schinken-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/805-rindfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/806-kalbfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/807-hackfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/808-lammfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/809-poulet-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/810-hirschfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/811-rohwurst-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/812-wurst-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/813-kaninchenfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/814-kangurufleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/815-straussenfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/816-kudu-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/818-bratwurst-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/819-bacon-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/820-quark-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/821-speck-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/822-ricotta-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/823-crevetten-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/825-ente-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/826-gorgonzola-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/827-mascarpone-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/828-feta-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/829-mozzarella-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/830-butter-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/831-milch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/832-joghurt-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/833-rahm-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/834-mayonnaise-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/835-ziegenfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/836-garnelen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/837-garnelenpaste-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/838-kalbsbratwurst-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/839-kase-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/840-felchen-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/841-brie-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/842-gruyere-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/843-edamer-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/844-kalbsgehacktes-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/845-emmentaler-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/846-parmesan-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/847-bundnerfleisch-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/848-lachsforelle-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/851-halbrahm-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/852-sauerrahm-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/9-erdnussol-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/900-konfiture-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/901-marmelade-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/902-tomatenkonzentrat-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/out/prods/906-milchpulver-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/JsonPropertyConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/CDL.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/CDL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/Cookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/CookieList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/CookieList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/HTTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/HTTP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/HTTPTokener.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/HTTPTokener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONException.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONML.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONString.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONStringer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONStringer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONTokener.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONTokener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/JSONWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/Kim.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/Kim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/README" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/XML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/XMLTokener.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/XMLTokener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/BitInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/BitInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/BitOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/BitOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/BitReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/BitReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/BitWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/BitWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/Huff.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/Huff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/JSONzip.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/JSONzip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/Keep.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/Keep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/None.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/None.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/PostMortem.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/PostMortem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/README" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/Unzipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/Unzipper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyConverter/src/org/json/zip/Zipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/zip/Zipper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/bin/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/bin/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/JsonPropertyTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDBJsonFilesConverter/src/JsonPropertyTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/CDL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/Cookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/CookieList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/HTTP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/HTTPTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONStringer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/JSONWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/Kim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/Property.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/XML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/XMLTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/BitInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/BitOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/BitReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/BitWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/Huff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/JSONzip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/Keep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/None.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/PostMortem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/Unzipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonPropertyTranslator/src/org/json/zip/Zipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/bin/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/bin/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/ProcessingMethodsConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDBJsonFilesConverter/src/ProcessingMethodsConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/CDL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/Cookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/CookieList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/HTTP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/HTTPTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONStringer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/JSONWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/Kim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/Property.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/XML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/XMLTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/BitInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/BitOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/BitReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/BitWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/Huff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/JSONzip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/Keep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/None.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/PostMortem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/Unzipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingMethodsConverter/src/org/json/zip/Zipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/ExcelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/ExcelConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/CsvSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/JsonFilesUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkCsvSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonNutrFilesConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/EDBJsonFilesConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/json-files-updater.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/JsonNutrFilesConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/JsonPropertyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonPropertyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/JsonPropertyTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonPropertyTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/ProcessingMethodsConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/ProcessingMethodsConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSONParser/src/json/JSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-beanutils-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-collections-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-logging-api-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/ezmorph-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/json-lib-2.4-jdk15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/xom-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/src/XmlToMultipleJsonConverter3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/xml/filemaker-export-kostadinov-komplett-utf8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/libraries/jackson_annotations_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/xls2json-nutrition-data-converter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/lib/jackson-annotations-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/lib/jackson-core-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/lib/jackson-databind-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JSONParser/json/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JSONParser/json/zip/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/CDL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/Cookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/CookieList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/HTTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/HTTPTokener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONStringer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONTokener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/Kim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/Property.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/XML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/XMLTokener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Huff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/JSONzip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Keep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/None.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/PostMortem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Unzipper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Zipper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/org/json/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/org/json/zip/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyTranslator/org/json/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyTranslator/org/json/zip/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/ProcessingMethodsConverter/org/json/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/ProcessingMethodsConverter/org/json/zip/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/jackson-annotations-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/jackson-core-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/jackson-databind-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/poi-3.10.1-20140818.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/ExcelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/ExcelConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/Nutrient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/Nutrient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/NutrientConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/NutrientConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/NutritionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/NutritionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/NutritionDataConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/NutritionDataConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/xls2json-nutrition-data-converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/xls2json-nutrition-data-converter.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1080,24 +122,41 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JsonNutrFilesConverter" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ch.eaternity.converters.edbjsonconverter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JsonNutrFilesConverter" />
     </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="ch.eaternity.converters.edbjsonconverter.JsonFilesUpdater" />
+      <recent name="ch.eaternity.converters.edbjsonconverter.Constants" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EDBJsonFilesConverter/res" />
+      <recent name="$PROJECT_DIR$/EDBJsonFilesConverter" />
+      <recent name="$PROJECT_DIR$/EDBJsonFilesConverter/res/nutrs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.eaternity.converters.edbjsonconverter" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.JsonPropertyConverter">
+  <component name="RunManager" selected="Application.JsonNutrFilesConverter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -1108,9 +167,17 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <configuration name="JsonNutrFilesConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.eaternity.converters.edbjsonconverter.onetime.JsonNutrFilesConverter" />
+      <module name="json-files-updater" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EDBJsonFilesConverter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonPropertyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsonPropertyConverter" />
-      <module name="EDBJsonFilesConverter" />
+      <option name="MAIN_CLASS_NAME" value="ch.eaternity.converters.edbjsonconverter.onetime.JsonPropertyConverter" />
+      <module name="json-files-updater" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1131,6 +198,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductNutritionLinkUpdater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.eaternity.converters.edbjsonconverter.recurring.ProductNutritionLinkUpdater" />
+      <module name="json-files-updater" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.eaternity.converters.edbjsonconverter.onetime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -1140,6 +221,53 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="json-files-updater" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="json-files-updater" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1156,11 +284,15 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.JsonPropertyConverter" />
+      <item itemvalue="Application.JsonNutrFilesConverter" />
+      <item itemvalue="Application.ProductNutritionLinkUpdater" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JsonPropertyConverter" />
+        <item itemvalue="Application.JsonNutrFilesConverter" />
+        <item itemvalue="Application.ProductNutritionLinkUpdater" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JsonPropertyConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -1174,7 +306,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591707749784</updated>
-      <workItem from="1591707754331" duration="5464000" />
+      <workItem from="1591707754331" duration="22969000" />
+      <workItem from="1592319753646" duration="9124000" />
     </task>
     <servers />
   </component>
@@ -1182,55 +315,123 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="493" y="23" key="#Auto_Import" timestamp="1592324466622">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="493" y="23" key="#Auto_Import/0.23.1440.877@0.23.1440.877" timestamp="1592324466622" />
     <state x="597" y="331" key="#Notifications" timestamp="1591708336913">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="597" y="331" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1591708336913" />
-    <state x="37" y="-1033" key="#Project_Structure" timestamp="1591787201246">
+    <state x="37" y="-1033" key="#Project_Structure" timestamp="1592396576583">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="37" y="-1033" key="#Project_Structure/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591787201246" />
-    <state x="208" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1591709310866" />
-    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591709233867">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="37" y="-1033" key="#Project_Structure/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592396576583" />
+    <state x="37" y="-1033" key="#Project_Structure/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591790394443" />
+    <state x="208" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1592323326519" />
+    <state x="5" y="-936" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591789734862">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="5" y="-936" key="#com.intellij.execution.impl.EditConfigurationsDialog/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591789734862" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1591709233867" />
-    <state x="337" y="-597" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591786752081">
+    <state x="533" y="-806" key="#com.intellij.ide.util.MemberChooser" timestamp="1592393884817">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="337" y="-597" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591786752081" />
-    <state x="441" y="-657" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591787027087">
+    <state x="533" y="-806" key="#com.intellij.ide.util.MemberChooser/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592393884817" />
+    <state x="457" y="-746" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591789662184">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="441" y="-657" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591787027087" />
-    <state width="1878" height="138" key="GridCell.Tab.0.bottom" timestamp="1591786106810">
+    <state x="457" y="-746" key="#com.intellij.ide.util.PackageChooserDialog/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591789662184" />
+    <state x="457" y="-731" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592395915661">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="138" key="GridCell.Tab.0.bottom/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591786106810" />
-    <state width="1398" height="233" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591710144553" />
-    <state width="1878" height="138" key="GridCell.Tab.0.center" timestamp="1591786106806">
+    <state x="457" y="-731" key="#com.intellij.ide.util.TreeClassChooserDialog/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395915661" />
+    <state x="337" y="-597" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592396495758">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="138" key="GridCell.Tab.0.center/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591786106806" />
-    <state width="1398" height="233" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591710144552" />
-    <state width="1878" height="138" key="GridCell.Tab.0.left" timestamp="1591786106804">
+    <state x="337" y="-597" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592396495758" />
+    <state x="441" y="-657" width="557" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592396364601">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="138" key="GridCell.Tab.0.left/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591786106804" />
-    <state width="1398" height="233" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591710144551" />
-    <state width="1878" height="138" key="GridCell.Tab.0.right" timestamp="1591786106809">
+    <state x="441" y="-657" width="557" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592396364601" />
+    <state x="441" y="-657" width="699" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591789667621" />
+    <state x="434" y="-714" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1592395918665">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="138" key="GridCell.Tab.0.right/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591786106809" />
-    <state width="1398" height="233" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591710144553" />
-    <state x="427" y="187" width="586" height="548" key="find.popup" timestamp="1591709551163">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="434" y="-714" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395918665" />
+    <state x="458" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592395962573">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="458" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962573" />
+    <state width="1878" height="121" key="GridCell.Tab.0.bottom" timestamp="1592395962953">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="121" key="GridCell.Tab.0.bottom/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962953" />
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946720" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592324814714" />
+    <state width="1878" height="121" key="GridCell.Tab.0.center" timestamp="1592395962952">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="121" key="GridCell.Tab.0.center/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962952" />
+    <state width="1878" height="266" key="GridCell.Tab.0.center/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946718" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592324814713" />
+    <state width="1878" height="121" key="GridCell.Tab.0.left" timestamp="1592395962952">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="121" key="GridCell.Tab.0.left/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962952" />
+    <state width="1878" height="266" key="GridCell.Tab.0.left/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946714" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592324814713" />
+    <state width="1878" height="121" key="GridCell.Tab.0.right" timestamp="1592395962953">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="121" key="GridCell.Tab.0.right/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962953" />
+    <state width="1878" height="266" key="GridCell.Tab.0.right/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946718" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592324814713" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1592394550058">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592394550058" />
+    <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1592324351344" />
+    <state x="343" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591974136046">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="343" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591974136046" />
+    <state x="523" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592390875383">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="523" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592390875383" />
+    <state x="456" y="-685" key="extract.method.dialog" timestamp="1591790105356">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="456" y="-685" key="extract.method.dialog/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591790105356" />
+    <state x="329" y="-859" width="782" height="822" key="find.popup" timestamp="1592393581605">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="329" y="-859" width="782" height="822" key="find.popup/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592393581605" />
     <state x="427" y="187" width="586" height="548" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1591709551163" />
-    <state x="-48" y="-983" key="new project wizard" timestamp="1591786984137">
+    <state x="78" y="-886" key="new project wizard" timestamp="1591971048888">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-48" y="-983" key="new project wizard/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591786984137" />
+    <state x="78" y="-886" key="new project wizard/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591971048888" />
     <state x="144" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1591708948967" />
+    <state x="660" y="-1025" width="624" height="720" key="refactoring.ChangeSignatureDialog" timestamp="1592394109451">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="660" y="-1025" width="624" height="720" key="refactoring.ChangeSignatureDialog/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592394109451" />
+    <state x="385" y="-878" width="670" height="676" key="search.everywhere.popup" timestamp="1591972165701">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="385" y="-878" width="670" height="676" key="search.everywhere.popup/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591972165701" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/ExcelConverter.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

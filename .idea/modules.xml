@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EDBJsonFilesConverter/EDBJsonFilesConverter.iml" filepath="$PROJECT_DIR$/EDBJsonFilesConverter/EDBJsonFilesConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSONParser/JSONParser.iml" filepath="$PROJECT_DIR$/JSONParser/JSONParser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json-files-updater/json-files-updater.iml" filepath="$PROJECT_DIR$/json-files-updater/json-files-updater.iml" />
       <module fileurl="file://$PROJECT_DIR$/xls2json-nutrition-data-converter/xls2json-nutrition-data-converter.iml" filepath="$PROJECT_DIR$/xls2json-nutrition-data-converter/xls2json-nutrition-data-converter.iml" />
     </modules>
   </component>

@@ -13,3 +13,7 @@ hs_err_pid*
 *.json
 *.log
 *.xls
+
+target/
+json-files-updater/out
+xls2json-nutrition-data-converter/out
