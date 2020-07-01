@@ -28,7 +28,7 @@ public class ProductNutritionLinkUpdater extends JsonFilesUpdater {
         outDirStr = "json-files-updater/out/prods/";
 
         //TODO this is a weird path and has to do with the project structure
-        String csvFileStr = "EDBJsonFilesConverter/res/productToNutrition.csv";
+        String csvFileStr = "json-files-updater/res/productToNutrition.csv";
         File csvFile = new File(csvFileStr);
 
         // loadCSV with Matching Items

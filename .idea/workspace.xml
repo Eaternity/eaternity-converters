@@ -2,98 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d309b8d-5f67-4027-8e6b-cab1137b680f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/CsvSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/JsonFilesUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkCsvSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonNutrFilesConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/EDBJsonFilesConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/json-files-updater.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/JsonNutrFilesConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/JsonPropertyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonPropertyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/JsonPropertyTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonPropertyTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDBJsonFilesConverter/src/ProcessingMethodsConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/ProcessingMethodsConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSONParser/src/json/JSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSONParser/src/json/JSONObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-beanutils-1.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-collections-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/commons-logging-api-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/ezmorph-1.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/json-lib-2.4-jdk15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/lib/xom-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/src/XmlToMultipleJsonConverter3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlToJsonConverter/xml/filemaker-export-kostadinov-komplett-utf8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/libraries/jackson_annotations_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.idea/xls2json-nutrition-data-converter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/lib/jackson-annotations-2.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/lib/jackson-core-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/lib/jackson-databind-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JSONParser/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JSONParser/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/CDL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/Cookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/CookieList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/HTTP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/HTTPTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONStringer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/JSONWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/Kim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/Property.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/XML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/XMLTokener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/BitWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Huff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/JSONzip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Keep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/None.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/PostMortem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Unzipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/json-java/zip/Zipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyConverter/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyTranslator/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/JsonPropertyTranslator/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/ProcessingMethodsConverter/org/json/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/ProcessingMethodsConverter/org/json/zip/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/jackson-annotations-2.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/jackson-core-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/jackson-databind-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/production/xls2json-nutrition-data-converter/poi-3.10.1-20140818.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/ExcelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/ExcelConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/Nutrient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/Nutrient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/NutrientConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/NutrientConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/NutritionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/NutritionData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/converters/xls2json/NutritionDataConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/NutritionDataConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/xls2json-nutrition-data-converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/xls2json-nutrition-data-converter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-files-updater/res/productToNutrition.csv" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/res/productToNutrition.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkCsvSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkCsvSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/current/ProductNutritionLinkUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonNutrFilesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-files-updater/src/ch/eaternity/edb/converters/old/JsonNutrFilesConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/ExcelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/ExcelConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +71,7 @@
       <recent name="ch.eaternity.converters.edbjsonconverter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JsonNutrFilesConverter">
+  <component name="RunManager" selected="Application.ProductNutritionLinkUpdater (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -167,6 +82,20 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <configuration name="JsonNutrFilesConverter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.eaternity.edb.converters.old.JsonNutrFilesConverter" />
+      <module name="json-files-updater" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.eaternity.edb.converters.old.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonNutrFilesConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.eaternity.converters.edbjsonconverter.onetime.JsonNutrFilesConverter" />
       <module name="json-files-updater" />
@@ -175,22 +104,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonPropertyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch.eaternity.converters.edbjsonconverter.onetime.JsonPropertyConverter" />
-      <module name="json-files-updater" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.eaternity.edb.converters.nutrition.xls2json.Main" />
+      <module name="xls2json-nutrition-data-converter" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.eaternity.edb.converters.nutrition.xls2json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch.eaternity.converters.xls2json.Main" />
-      <module name="xls2json-nutrition-data-converter" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xls2json-nutrition-data-converter" />
+    <configuration name="ProductNutritionLinkUpdater (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.eaternity.edb.converters.current.ProductNutritionLinkUpdater" />
+      <module name="json-files-updater" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch.eaternity.converters.xls2json.*" />
+          <option name="PATTERN" value="ch.eaternity.edb.converters.current.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,17 +216,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.JsonPropertyConverter" />
       <item itemvalue="Application.JsonNutrFilesConverter" />
       <item itemvalue="Application.ProductNutritionLinkUpdater" />
+      <item itemvalue="Application.JsonNutrFilesConverter (1)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.ProductNutritionLinkUpdater (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductNutritionLinkUpdater (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.JsonNutrFilesConverter (1)" />
         <item itemvalue="Application.JsonNutrFilesConverter" />
         <item itemvalue="Application.ProductNutritionLinkUpdater" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JsonPropertyConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +243,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591707749784</updated>
       <workItem from="1591707754331" duration="22969000" />
-      <workItem from="1592319753646" duration="9124000" />
+      <workItem from="1592319753646" duration="9483000" />
+      <workItem from="1593521581304" duration="2550000" />
     </task>
     <servers />
   </component>
@@ -363,35 +300,35 @@
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
     <state x="458" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962573" />
-    <state width="1878" height="121" key="GridCell.Tab.0.bottom" timestamp="1592395962953">
-      <screen x="-240" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1593593539810">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="121" key="GridCell.Tab.0.bottom/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962953" />
+    <state width="1878" height="121" key="GridCell.Tab.0.bottom/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592398287380" />
     <state width="1878" height="266" key="GridCell.Tab.0.bottom/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946720" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592324814714" />
-    <state width="1878" height="121" key="GridCell.Tab.0.center" timestamp="1592395962952">
-      <screen x="-240" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593593539810" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1593593539809">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="121" key="GridCell.Tab.0.center/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962952" />
+    <state width="1878" height="121" key="GridCell.Tab.0.center/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592398287380" />
     <state width="1878" height="266" key="GridCell.Tab.0.center/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946718" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592324814713" />
-    <state width="1878" height="121" key="GridCell.Tab.0.left" timestamp="1592395962952">
-      <screen x="-240" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593593539809" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1593593539809">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="121" key="GridCell.Tab.0.left/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962952" />
+    <state width="1878" height="121" key="GridCell.Tab.0.left/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592398287379" />
     <state width="1878" height="266" key="GridCell.Tab.0.left/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946714" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592324814713" />
-    <state width="1878" height="121" key="GridCell.Tab.0.right" timestamp="1592395962953">
-      <screen x="-240" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593593539809" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1593593539810">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="121" key="GridCell.Tab.0.right/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592395962953" />
+    <state width="1878" height="121" key="GridCell.Tab.0.right/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592398287380" />
     <state width="1878" height="266" key="GridCell.Tab.0.right/-240.-1057.1920.1057/44.23.1396.877@-240.-1057.1920.1057" timestamp="1591794946718" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592324814713" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1592394550058">
-      <screen x="-240" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593593539810" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1593523192253">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="445" key="SwitcherDM/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1592394550058" />
-    <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1592324351344" />
+    <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1593523192253" />
     <state x="343" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591974136046">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
@@ -422,16 +359,5 @@
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
     <state x="385" y="-878" width="670" height="676" key="search.everywhere.popup/-240.-1057.1920.1057/0.23.1440.877@-240.-1057.1920.1057" timestamp="1591972165701" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xls2json-nutrition-data-converter/src/ch/eaternity/edb/converters/nutrition/xls2json/ExcelConverter.java</url>
-          <line>137</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -26,9 +26,9 @@ public class JsonNutrFilesConverter extends JsonFilesUpdater {
 	private Map<String, String> nutrNameMap = new HashMap<>();
 
 	public JsonNutrFilesConverter() throws IOException {
-		inDirStr = "res/nutrs/";
+		inDirStr = "json-files-updater/res/nutrs/";
 		fileNameFilterPattern = "(.)+[-]nutr.json";
-		outDirStr = "out/nutrs/";
+		outDirStr = "json-files-updater/out/nutrs/";
 
 		initializeDirs();
 	}
@@ -58,7 +58,7 @@ public class JsonNutrFilesConverter extends JsonFilesUpdater {
 			fileContent = fileContent + next + "; " + nutrIdMap.get(next) + "; " + nutrNameMap.get(next) + System.lineSeparator();
 		}
 
-		writeFile("Nutrition-Id-Mapping.csv", fileContent);
+		writeFile("json-files-updater/out/Nutrition-Id-Mapping.csv", fileContent);
 	}
 
 	private void convertFile(File inFile, String newNutrId) throws IOException {
@@ -69,7 +69,7 @@ public class JsonNutrFilesConverter extends JsonFilesUpdater {
 			try {
 				if (json.has(Constants.ID)) {
 					String nutrName = replaceNutrId(inFile.getName(), json, newNutrId);
-					String filename = ExcelConverter.getNutrFilename("out/nutrs/", newNutrId, nutrName);
+					String filename = ExcelConverter.getNutrFilename("json-files-updater/out/nutrs/", newNutrId, nutrName);
 					File outFile = new File(filename);
 					bw = new BufferedWriter(new FileWriter(outFile));
 					json.write(bw, 2, 2);
@@ -79,7 +79,9 @@ public class JsonNutrFilesConverter extends JsonFilesUpdater {
 
 			}
 			finally {
-				bw.close();
+				if (bw != null) {
+					bw.close();
+				}
 			}
 	}
 

@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
  * TODO define responsibility of class
  */
 @JsonPropertyOrder({ProductNutritionLinkCsvSchema.PRODUCT_ID, ProductNutritionLinkCsvSchema.NUTRITION_DATA_ID})
-public class ProductNutritionLinkCsvSchema extends CsvSchema {
+public class ProductNutritionLinkCsvSchema implements CsvSchema {
 
     public static final String PRODUCT_ID = "Product ID";
     public static final String NUTRITION_DATA_ID = "NutritionData ID";
